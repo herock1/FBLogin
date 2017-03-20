@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F05F6F791E7E4E970012CF86 /* gp.png in Resources */ = {isa = PBXBuildFile; fileRef = F05F6F781E7E4E970012CF86 /* gp.png */; };
 		F0CF5C651E7A951700F738BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF5C641E7A951700F738BF /* main.m */; };
 		F0CF5C681E7A951700F738BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF5C671E7A951700F738BF /* AppDelegate.m */; };
 		F0CF5C6B1E7A951700F738BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF5C6A1E7A951700F738BF /* ViewController.m */; };
@@ -15,6 +16,16 @@
 		F0CF5C731E7A951700F738BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CF5C711E7A951700F738BF /* LaunchScreen.storyboard */; };
 		F0CF5C7E1E7A951700F738BF /* FBLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF5C7D1E7A951700F738BF /* FBLoginTests.m */; };
 		F0CF5C891E7A951700F738BF /* FBLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CF5C881E7A951700F738BF /* FBLoginUITests.m */; };
+		F0CF5C9A1E7A9BA600F738BF /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5C971E7A9BA600F738BF /* AccountKit.framework */; };
+		F0CF5C9B1E7A9BA600F738BF /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0CF5C981E7A9BA600F738BF /* AccountKitStrings.bundle */; };
+		F0CF5C9C1E7A9BA600F738BF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5C991E7A9BA600F738BF /* Bolts.framework */; };
+		F0CF5CA41E7A9BBC00F738BF /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0CF5C9D1E7A9BBC00F738BF /* FacebookSDKStrings.bundle */; };
+		F0CF5CA51E7A9BBC00F738BF /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5C9E1E7A9BBC00F738BF /* FBAudienceNetwork.framework */; };
+		F0CF5CA61E7A9BBC00F738BF /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5C9F1E7A9BBC00F738BF /* FBNotifications.framework */; };
+		F0CF5CA71E7A9BBC00F738BF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5CA01E7A9BBC00F738BF /* FBSDKCoreKit.framework */; };
+		F0CF5CA81E7A9BBC00F738BF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5CA11E7A9BBC00F738BF /* FBSDKLoginKit.framework */; };
+		F0CF5CA91E7A9BBC00F738BF /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5CA21E7A9BBC00F738BF /* FBSDKMessengerShareKit.framework */; };
+		F0CF5CAA1E7A9BBC00F738BF /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CF5CA31E7A9BBC00F738BF /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F05F6F781E7E4E970012CF86 /* gp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gp.png; sourceTree = "<group>"; };
 		F0CF5C601E7A951700F738BF /* FBLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CF5C641E7A951700F738BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0CF5C661E7A951700F738BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,16 @@
 		F0CF5C841E7A951700F738BF /* FBLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CF5C881E7A951700F738BF /* FBLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLoginUITests.m; sourceTree = "<group>"; };
 		F0CF5C8A1E7A951700F738BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0CF5C971E7A9BA600F738BF /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		F0CF5C981E7A9BA600F738BF /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		F0CF5C991E7A9BA600F738BF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F0CF5C9D1E7A9BBC00F738BF /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		F0CF5C9E1E7A9BBC00F738BF /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		F0CF5C9F1E7A9BBC00F738BF /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		F0CF5CA01E7A9BBC00F738BF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F0CF5CA11E7A9BBC00F738BF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F0CF5CA21E7A9BBC00F738BF /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		F0CF5CA31E7A9BBC00F738BF /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0CF5CAA1E7A9BBC00F738BF /* FBSDKShareKit.framework in Frameworks */,
+				F0CF5CA71E7A9BBC00F738BF /* FBSDKCoreKit.framework in Frameworks */,
+				F0CF5CA51E7A9BBC00F738BF /* FBAudienceNetwork.framework in Frameworks */,
+				F0CF5CA81E7A9BBC00F738BF /* FBSDKLoginKit.framework in Frameworks */,
+				F0CF5C9A1E7A9BA600F738BF /* AccountKit.framework in Frameworks */,
+				F0CF5C9C1E7A9BA600F738BF /* Bolts.framework in Frameworks */,
+				F0CF5CA61E7A9BBC00F738BF /* FBNotifications.framework in Frameworks */,
+				F0CF5CA91E7A9BBC00F738BF /* FBSDKMessengerShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +136,11 @@
 				F0CF5C691E7A951700F738BF /* ViewController.h */,
 				F0CF5C6A1E7A951700F738BF /* ViewController.m */,
 				F0CF5C6C1E7A951700F738BF /* Main.storyboard */,
+				F05F6F781E7E4E970012CF86 /* gp.png */,
 				F0CF5C6F1E7A951700F738BF /* Assets.xcassets */,
 				F0CF5C711E7A951700F738BF /* LaunchScreen.storyboard */,
 				F0CF5C741E7A951700F738BF /* Info.plist */,
+				F0CF5C961E7A9B6000F738BF /* FBSDK */,
 				F0CF5C631E7A951700F738BF /* Supporting Files */,
 			);
 			path = FBLogin;
@@ -138,6 +170,23 @@
 				F0CF5C8A1E7A951700F738BF /* Info.plist */,
 			);
 			path = FBLoginUITests;
+			sourceTree = "<group>";
+		};
+		F0CF5C961E7A9B6000F738BF /* FBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F0CF5C9D1E7A9BBC00F738BF /* FacebookSDKStrings.bundle */,
+				F0CF5C9E1E7A9BBC00F738BF /* FBAudienceNetwork.framework */,
+				F0CF5C9F1E7A9BBC00F738BF /* FBNotifications.framework */,
+				F0CF5CA01E7A9BBC00F738BF /* FBSDKCoreKit.framework */,
+				F0CF5CA11E7A9BBC00F738BF /* FBSDKLoginKit.framework */,
+				F0CF5CA21E7A9BBC00F738BF /* FBSDKMessengerShareKit.framework */,
+				F0CF5CA31E7A9BBC00F738BF /* FBSDKShareKit.framework */,
+				F0CF5C971E7A9BA600F738BF /* AccountKit.framework */,
+				F0CF5C981E7A9BA600F738BF /* AccountKitStrings.bundle */,
+				F0CF5C991E7A9BA600F738BF /* Bolts.framework */,
+			);
+			name = FBSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0CF5C731E7A951700F738BF /* LaunchScreen.storyboard in Resources */,
+				F05F6F791E7E4E970012CF86 /* gp.png in Resources */,
+				F0CF5CA41E7A9BBC00F738BF /* FacebookSDKStrings.bundle in Resources */,
 				F0CF5C701E7A951700F738BF /* Assets.xcassets in Resources */,
 				F0CF5C6E1E7A951700F738BF /* Main.storyboard in Resources */,
+				F0CF5C9B1E7A9BA600F738BF /* AccountKitStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +480,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQ3QCQVX72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBLogin",
+				);
 				INFOPLIST_FILE = FBLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iappstudio.fb.FBLogin;
@@ -440,6 +496,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQ3QCQVX72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBLogin",
+				);
 				INFOPLIST_FILE = FBLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iappstudio.fb.FBLogin;
@@ -516,6 +576,7 @@
 				F0CF5C8F1E7A951700F738BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0CF5C901E7A951700F738BF /* Build configuration list for PBXNativeTarget "FBLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +585,7 @@
 				F0CF5C921E7A951700F738BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0CF5C931E7A951700F738BF /* Build configuration list for PBXNativeTarget "FBLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +594,7 @@
 				F0CF5C951E7A951700F738BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
